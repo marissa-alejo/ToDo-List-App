@@ -10,7 +10,7 @@ import UIKit
 
 class CompleteToDoViewController: UIViewController {
     var previousVC = ToDoTableViewController()
-    var selectedToDo = ToDoCD?
+    var selectedToDo : ToDoCD?
     
     @IBOutlet weak var titleLabel: UILabel!
     
